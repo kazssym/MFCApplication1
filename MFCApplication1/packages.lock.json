@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "dependencies": {
+    "native,Version=v0.0": {
+      "Microsoft.Windows.SDK.BuildTools": {
+        "type": "Direct",
+        "requested": "[10.0.22621.2428, 10.0.22621.2428]",
+        "resolved": "10.0.22621.2428",
+        "contentHash": "qCNAxtpkIvn/mTXLoj5uW80qPyPvNcnTPTLgm2U+d53LS75DT6iQSpLnkVYCvxuRLx4FYPAcKackwpc0cDZGUg=="
+      },
+      "Microsoft.WindowsAppSDK": {
+        "type": "Direct",
+        "requested": "[1.4.231219000, 1.4.231219000]",
+        "resolved": "1.4.231219000",
+        "contentHash": "UhLglTUCK+Qt19ivGjmxUuNfuRLk1kfR6+BgCS4UMjM9xjZ2zEUnrpfy0iGYBhn+PhCAw97bESZWLg8gjtKCSQ=="
+      }
+    }
+  }
+}
