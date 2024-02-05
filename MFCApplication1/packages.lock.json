@@ -2,6 +2,12 @@
   "version": 1,
   "dependencies": {
     "native,Version=v0.0": {
+      "Microsoft.Windows.CppWinRT": {
+        "type": "Direct",
+        "requested": "[2.0.240111.5, 2.0.240111.5]",
+        "resolved": "2.0.240111.5",
+        "contentHash": "3SX5ZVky1AbUAxsMW+xSRB4ytix8G9xSc6qeCiwvU4XIDLECwo3Pt3HETk3VZEB4E3bPKKgh4c4AZZdabUrT2A=="
+      },
       "Microsoft.Windows.SDK.BuildTools": {
         "type": "Direct",
         "requested": "[10.0.22621.2428, 10.0.22621.2428]",
