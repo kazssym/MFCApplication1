@@ -7,10 +7,16 @@
 #include "MFCApplication1.h"
 
 #include "MainFrm.h"
+#include <winrt/Windows.UI.Core.h>
+#include <winrt/Windows.UI.Popups.h>
+
+using winrt::Windows::Foundation::IAsyncAction;
+using winrt::Windows::UI::Popups::MessageDialog;
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+
 
 // CMainFrame
 
@@ -28,6 +34,7 @@ BEGIN_MESSAGE_MAP(CMainFrame, CMDIFrameWndEx)
 	ON_COMMAND_RANGE(ID_VIEW_APPLOOK_WIN_2000, ID_VIEW_APPLOOK_WINDOWS_7, &CMainFrame::OnApplicationLook)
 	ON_UPDATE_COMMAND_UI_RANGE(ID_VIEW_APPLOOK_WIN_2000, ID_VIEW_APPLOOK_WINDOWS_7, &CMainFrame::OnUpdateApplicationLook)
 	ON_WM_SETTINGCHANGE()
+	ON_COMMAND(ID_TRY_ACTION_1, &CMainFrame::OnTryAction1)
 END_MESSAGE_MAP()
 
 static UINT indicators[] =
@@ -49,6 +56,16 @@ CMainFrame::CMainFrame() noexcept
 CMainFrame::~CMainFrame()
 {
 }
+
+
+IAsyncAction CMainFrame::ShowMessageAsync() const
+{
+	auto &&dialog = MessageDialog(L"This is the message string.", L"Message");
+	dialog.as<IInitializeWithWindow>()->Initialize(*this);
+
+	co_await dialog.ShowAsync();
+}
+
 
 int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 {
@@ -427,4 +444,10 @@ void CMainFrame::OnSettingChange(UINT uFlags, LPCTSTR lpszSection)
 {
 	CMDIFrameWndEx::OnSettingChange(uFlags, lpszSection);
 	m_wndOutput.UpdateFonts();
+}
+
+
+void CMainFrame::OnTryAction1()
+{
+	ShowMessageAsync();
 }
