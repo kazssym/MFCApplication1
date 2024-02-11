@@ -182,4 +182,7 @@
     <None Include="packages.config" />
     <None Include="packages.lock.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
+  </ItemGroup>
 </Project>
