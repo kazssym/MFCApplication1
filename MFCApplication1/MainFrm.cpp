@@ -10,8 +10,14 @@
 #include <winrt/Windows.UI.Core.h>
 #include <winrt/Windows.UI.Popups.h>
 
+using winrt::box_value;
+using winrt::unbox_value;
 using winrt::Windows::Foundation::IAsyncAction;
+using winrt::Windows::Foundation::IAsyncOperation;
+using winrt::Windows::UI::Popups::IUICommand;
 using winrt::Windows::UI::Popups::MessageDialog;
+using winrt::Windows::UI::Popups::UICommand;
+using namespace winrt;
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -58,12 +64,19 @@ CMainFrame::~CMainFrame()
 }
 
 
-IAsyncAction CMainFrame::ShowMessageAsync() const
+IAsyncOperation<int> CMainFrame::ShowMessageAsync() const
 {
 	auto &&dialog = MessageDialog(L"This is the message string.", L"Message");
 	dialog.as<IInitializeWithWindow>()->Initialize(*this);
 
-	co_await dialog.ShowAsync();
+	dialog.Commands().Append(UICommand(L"OK", {}, box_value(IDOK)));
+	dialog.DefaultCommandIndex(dialog.Commands().Size() - 1U);
+
+	dialog.Commands().Append(UICommand(L"Cancel", {}, box_value(IDCANCEL)));
+	dialog.CancelCommandIndex(dialog.Commands().Size() - 1U);
+
+	auto &&command = co_await dialog.ShowAsync();
+	co_return unbox_value<int>(command.Id());
 }
 
 
