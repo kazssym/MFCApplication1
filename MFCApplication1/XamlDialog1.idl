@@ -1,0 +1,9 @@
+namespace MFCApplication1
+{
+    [default_interface]
+    runtimeclass XamlDialog1 : Microsoft.UI.Xaml.Window
+    {
+        XamlDialog1();
+        Int32 MyProperty;
+    }
+}

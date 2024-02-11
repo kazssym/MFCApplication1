@@ -185,4 +185,7 @@
   <ItemGroup>
     <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
   </ItemGroup>
+  <ItemGroup>
+    <Page Include="XamlDialog1.xaml" />
+  </ItemGroup>
 </Project>
