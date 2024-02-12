@@ -188,4 +188,7 @@
   <ItemGroup>
     <Page Include="XamlDialog1.xaml" />
   </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest" />
+  </ItemGroup>
 </Project>
