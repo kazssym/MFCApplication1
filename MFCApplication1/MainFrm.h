@@ -47,18 +47,19 @@ private:  // control bar embedded members
 
 // Generated message map functions
 protected:
-	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
-	afx_msg void OnWindowManager();
-	afx_msg void OnViewCustomize();
-	afx_msg LRESULT OnToolbarCreateNew(WPARAM wp, LPARAM lp);
-	afx_msg void OnApplicationLook(UINT id);
-	afx_msg void OnUpdateApplicationLook(CCmdUI* pCmdUI);
-	afx_msg void OnSettingChange(UINT uFlags, LPCTSTR lpszSection);
-	afx_msg void OnTryAction1();
-	DECLARE_MESSAGE_MAP()
+    afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+    afx_msg void OnWindowManager();
+    afx_msg void OnViewCustomize();
+    afx_msg LRESULT OnToolbarCreateNew(WPARAM wp, LPARAM lp);
+    afx_msg void OnApplicationLook(UINT id);
+    afx_msg void OnUpdateApplicationLook(CCmdUI *pCmdUI);
+    afx_msg void OnSettingChange(UINT uFlags, LPCTSTR lpszSection);
+    afx_msg void OnTryAction1();
+    afx_msg void OnTryAction2();
+    DECLARE_MESSAGE_MAP()
 
-	BOOL CreateDockingWindows();
-	void SetDockingWindowIcons(BOOL bHiColorIcons);
+    BOOL CreateDockingWindows();
+    void SetDockingWindowIcons(BOOL bHiColorIcons);
 };
 
 

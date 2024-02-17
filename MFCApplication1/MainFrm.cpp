@@ -7,7 +7,6 @@
 #include "MFCApplication1.h"
 
 #include "MainFrm.h"
-#include <winrt/Windows.UI.Core.h>
 #include <winrt/Windows.UI.Popups.h>
 
 using winrt::box_value;
@@ -33,14 +32,15 @@ const UINT uiFirstUserToolBarId = AFX_IDW_CONTROLBAR_FIRST + 40;
 const UINT uiLastUserToolBarId = uiFirstUserToolBarId + iMaxUserToolbars - 1;
 
 BEGIN_MESSAGE_MAP(CMainFrame, CMDIFrameWndEx)
-	ON_WM_CREATE()
-	ON_COMMAND(ID_WINDOW_MANAGER, &CMainFrame::OnWindowManager)
-	ON_COMMAND(ID_VIEW_CUSTOMIZE, &CMainFrame::OnViewCustomize)
-	ON_REGISTERED_MESSAGE(AFX_WM_CREATETOOLBAR, &CMainFrame::OnToolbarCreateNew)
-	ON_COMMAND_RANGE(ID_VIEW_APPLOOK_WIN_2000, ID_VIEW_APPLOOK_WINDOWS_7, &CMainFrame::OnApplicationLook)
-	ON_UPDATE_COMMAND_UI_RANGE(ID_VIEW_APPLOOK_WIN_2000, ID_VIEW_APPLOOK_WINDOWS_7, &CMainFrame::OnUpdateApplicationLook)
-	ON_WM_SETTINGCHANGE()
-	ON_COMMAND(ID_TRY_ACTION_1, &CMainFrame::OnTryAction1)
+    ON_WM_CREATE()
+    ON_COMMAND(ID_WINDOW_MANAGER, &CMainFrame::OnWindowManager)
+    ON_COMMAND(ID_VIEW_CUSTOMIZE, &CMainFrame::OnViewCustomize)
+    ON_REGISTERED_MESSAGE(AFX_WM_CREATETOOLBAR, &CMainFrame::OnToolbarCreateNew)
+    ON_COMMAND_RANGE(ID_VIEW_APPLOOK_WIN_2000, ID_VIEW_APPLOOK_WINDOWS_7, &CMainFrame::OnApplicationLook)
+    ON_UPDATE_COMMAND_UI_RANGE(ID_VIEW_APPLOOK_WIN_2000, ID_VIEW_APPLOOK_WINDOWS_7, &CMainFrame::OnUpdateApplicationLook)
+    ON_WM_SETTINGCHANGE()
+    ON_COMMAND(ID_TRY_ACTION_1, &CMainFrame::OnTryAction1)
+    ON_COMMAND(ID_TRY_ACTION_2, &CMainFrame::OnTryAction2)
 END_MESSAGE_MAP()
 
 static UINT indicators[] =
@@ -463,4 +463,9 @@ void CMainFrame::OnSettingChange(UINT uFlags, LPCTSTR lpszSection)
 void CMainFrame::OnTryAction1()
 {
     ShowMessageAsync();
+}
+
+
+void CMainFrame::OnTryAction2()
+{
 }
