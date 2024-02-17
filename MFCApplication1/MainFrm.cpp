@@ -462,5 +462,5 @@ void CMainFrame::OnSettingChange(UINT uFlags, LPCTSTR lpszSection)
 
 void CMainFrame::OnTryAction1()
 {
-	ShowMessageAsync();
+    ShowMessageAsync();
 }
