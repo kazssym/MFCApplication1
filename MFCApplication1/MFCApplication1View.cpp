@@ -2,6 +2,8 @@
 // MFCApplication1View.cpp : implementation of the CMFCApplication1View class
 //
 
+module MFCApplication1.View;
+
 #include "pch.h"
 #include "framework.h"
 // SHARED_HANDLERS can be defined in an ATL project implementing preview, thumbnail
