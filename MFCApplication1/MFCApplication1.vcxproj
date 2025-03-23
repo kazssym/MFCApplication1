@@ -230,6 +230,8 @@
     <ClCompile Include="FileView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="MFCApplication1-App.ixx" />
+    <ClCompile Include="MFCApplication1.Control-ViewTree.ixx" />
+    <ClCompile Include="MFCApplication1.Control.ixx" />
     <ClCompile Include="MFCApplication1.cpp" />
     <ClCompile Include="MFCApplication1.Document.ixx" />
     <ClCompile Include="MFCApplication1.Frame-Child.ixx" />
