@@ -2,29 +2,29 @@
   "version": 1,
   "dependencies": {
     "native,Version=v0.0": {
+      "Microsoft.Web.WebView2": {
+        "type": "Direct",
+        "requested": "[1.0.3124.44, 1.0.3124.44]",
+        "resolved": "1.0.3124.44",
+        "contentHash": "sQb+ACD3ILvHxztxqCWLbhYmFNf5dH0HPhVKFYg020rpeQPkadH0nkVOSsgfSyBDMLypI9iMBeD6uVcVxsKLkg=="
+      },
       "Microsoft.Windows.CppWinRT": {
         "type": "Direct",
-        "requested": "[2.0.240111.5, 2.0.240111.5]",
-        "resolved": "2.0.240111.5",
-        "contentHash": "3SX5ZVky1AbUAxsMW+xSRB4ytix8G9xSc6qeCiwvU4XIDLECwo3Pt3HETk3VZEB4E3bPKKgh4c4AZZdabUrT2A=="
-      },
-      "Microsoft.Windows.ImplementationLibrary": {
-        "type": "Direct",
-        "requested": "[1.0.240122.1, 1.0.240122.1]",
-        "resolved": "1.0.240122.1",
-        "contentHash": "75KrDgpimKccp5M+Cvik8yETcJoPto0kqrVXj8W366P7KmnuBwa6v3LBPHnjOGBD8a6/+fxzKDV1YJqtopG9ww=="
+        "requested": "[2.0.240405.15, 2.0.240405.15]",
+        "resolved": "2.0.240405.15",
+        "contentHash": "3ny3Z7ONWMzn+lQZn6UVjM6w4c4HHfBFtk7JqsbDTwK/lGOvM8ZIil5/ok9D9qF59qdhMe6UWUWzP/6CiUXw0Q=="
       },
       "Microsoft.Windows.SDK.BuildTools": {
         "type": "Direct",
-        "requested": "[10.0.22621.2428, 10.0.22621.2428]",
-        "resolved": "10.0.22621.2428",
-        "contentHash": "qCNAxtpkIvn/mTXLoj5uW80qPyPvNcnTPTLgm2U+d53LS75DT6iQSpLnkVYCvxuRLx4FYPAcKackwpc0cDZGUg=="
+        "requested": "[10.0.26100.1742, 10.0.26100.1742]",
+        "resolved": "10.0.26100.1742",
+        "contentHash": "ypcHjr4KEi6xQhgClnbXoANHcyyX/QsC4Rky4igs6M4GiDa+weegPo8JuV/VMxqrZCV4zlqDsp2krgkN7ReAAg=="
       },
       "Microsoft.WindowsAppSDK": {
         "type": "Direct",
-        "requested": "[1.4.231219000, 1.4.231219000]",
-        "resolved": "1.4.231219000",
-        "contentHash": "UhLglTUCK+Qt19ivGjmxUuNfuRLk1kfR6+BgCS4UMjM9xjZ2zEUnrpfy0iGYBhn+PhCAw97bESZWLg8gjtKCSQ=="
+        "requested": "[1.7.250310001, 1.7.250310001]",
+        "resolved": "1.7.250310001",
+        "contentHash": "qSdSuQAOYIyFWEojsGA6EOE2TpdP4n3CBqXXgA+GFTI/kwMVunc85EiXjn1227+HizhIi7J/6Aj0gYUt41DcSw=="
       }
     }
   }
