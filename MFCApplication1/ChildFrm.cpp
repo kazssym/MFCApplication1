@@ -2,6 +2,8 @@
 // ChildFrm.cpp : implementation of the CChildFrame class
 //
 
+module MFCApplication1.Frame:Child;
+
 #include "pch.h"
 #include "framework.h"
 //#include "MFCApplication1.h"
