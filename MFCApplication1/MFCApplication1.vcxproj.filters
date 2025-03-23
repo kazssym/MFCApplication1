@@ -92,6 +92,9 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MFCApplication1-App.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="MFCApplication1.rc">
@@ -179,11 +182,8 @@
     <None Include="res\MFCApplication1.rc2">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="packages.config" />
     <None Include="packages.lock.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="XamlDialog1.xaml" />
