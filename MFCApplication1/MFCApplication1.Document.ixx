@@ -4,6 +4,7 @@ module;
 
 #include <pch.h>
 
+
 export module MFCApplication1.Document;
 
 #include "MFCApplication1Doc.h"
