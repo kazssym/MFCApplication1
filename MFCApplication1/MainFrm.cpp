@@ -4,7 +4,8 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "MFCApplication1.h"
+//#include "MFCApplication1.h"
+#include <resource.h>
 
 #include "MainFrm.h"
 #include <winrt/Windows.UI.Popups.h>
@@ -21,6 +22,8 @@ using namespace winrt;
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+
+import MFCApplication1;
 
 
 // CMainFrame

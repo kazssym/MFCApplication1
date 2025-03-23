@@ -4,13 +4,16 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "MFCApplication1.h"
+//#include "MFCApplication1.h"
 
 #include "ChildFrm.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+
+import MFCApplication1;
+
 
 // CChildFrame
 

@@ -7,7 +7,7 @@
 // SHARED_HANDLERS can be defined in an ATL project implementing preview, thumbnail
 // and search filter handlers and allows sharing of document code with that project.
 #ifndef SHARED_HANDLERS
-#include "MFCApplication1.h"
+//#include "MFCApplication1.h"
 #endif
 
 #include "MFCApplication1Doc.h"
@@ -17,6 +17,9 @@
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+
+import MFCApplication1;
+
 
 // CMFCApplication1Doc
 

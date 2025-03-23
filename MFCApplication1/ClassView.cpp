@@ -4,7 +4,10 @@
 #include "MainFrm.h"
 #include "ClassView.h"
 #include "Resource.h"
-#include "MFCApplication1.h"
+//#include "MFCApplication1.h"
+
+import MFCApplication1;
+
 
 class CClassViewMenuButton : public CMFCToolBarMenuButton
 {
