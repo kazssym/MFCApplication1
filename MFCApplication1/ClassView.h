@@ -1,7 +1,8 @@
 
 #pragma once
 
-#include "ViewTree.h"
+import MFCApplication1.Control;
+
 
 class CClassToolBar : public CMFCToolBar
 {
