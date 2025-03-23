@@ -232,6 +232,8 @@
     <ClCompile Include="MFCApplication1-App.ixx" />
     <ClCompile Include="MFCApplication1.cpp" />
     <ClCompile Include="MFCApplication1.Document.ixx" />
+    <ClCompile Include="MFCApplication1.Frame-Main.ixx" />
+    <ClCompile Include="MFCApplication1.Frame.ixx" />
     <ClCompile Include="MFCApplication1.ixx" />
     <ClCompile Include="MFCApplication1.View.ixx" />
     <ClCompile Include="MFCApplication1Doc.cpp" />
