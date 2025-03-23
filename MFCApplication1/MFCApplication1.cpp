@@ -13,11 +13,14 @@ module MFCApplication1:App;
 
 #include "ChildFrm.h"
 //#include "MFCApplication1Doc.h"
-#include "MFCApplication1View.h"
+//#include "MFCApplication1View.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+
+import MFCApplication1.Document;
+import MFCApplication1.View;
 
 
 // CMFCApplication1App
