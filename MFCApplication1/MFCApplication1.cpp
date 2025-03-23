@@ -9,9 +9,9 @@ module MFCApplication1:App;
 #include "afxwinappex.h"
 #include "afxdialogex.h"
 #include "MFCApplication1.h"
-#include "MainFrm.h"
+//#include "MainFrm.h"
 
-#include "ChildFrm.h"
+//#include "ChildFrm.h"
 //#include "MFCApplication1Doc.h"
 //#include "MFCApplication1View.h"
 
@@ -20,6 +20,7 @@ module MFCApplication1:App;
 #endif
 
 import MFCApplication1.Document;
+import MFCApplication1.Frame;
 import MFCApplication1.View;
 
 
