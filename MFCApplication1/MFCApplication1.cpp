@@ -2,6 +2,8 @@
 // MFCApplication1.cpp : Defines the class behaviors for the application.
 //
 
+module MFCApplication1:App;
+
 #include "pch.h"
 #include "framework.h"
 #include "afxwinappex.h"
