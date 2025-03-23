@@ -4,6 +4,8 @@
 
 #pragma once
 
+import MFCApplication1.Document;
+
 
 class CMFCApplication1View : public CView
 {
