@@ -57,7 +57,7 @@ CMFCApplication1App::CMFCApplication1App() noexcept
 
 // The one and only CMFCApplication1App object
 
-CMFCApplication1App theApp;
+//CMFCApplication1App theApp;
 
 
 // CMFCApplication1App initialization
