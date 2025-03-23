@@ -9,3 +9,5 @@ export module MFCApplication1.Frame;
 
 
 export import :Main;
+
+export import :Child;
