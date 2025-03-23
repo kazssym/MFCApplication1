@@ -1,7 +1,7 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "MainFrm.h"
+//#include "MainFrm.h"
 #include "ClassView.h"
 #include "Resource.h"
 //#include "MFCApplication1.h"

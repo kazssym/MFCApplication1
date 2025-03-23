@@ -4,7 +4,7 @@
 
 #include "PropertiesWnd.h"
 #include "Resource.h"
-#include "MainFrm.h"
+//#include "MainFrm.h"
 //#include "MFCApplication1.h"
 
 #ifdef _DEBUG
