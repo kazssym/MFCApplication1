@@ -2,6 +2,8 @@
 // MFCApplication1Doc.cpp : implementation of the CMFCApplication1Doc class
 //
 
+module MFCApplication1App.Document;
+
 #include "pch.h"
 #include "framework.h"
 // SHARED_HANDLERS can be defined in an ATL project implementing preview, thumbnail
@@ -17,8 +19,6 @@
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
-
-import MFCApplication1;
 
 
 // CMFCApplication1Doc
