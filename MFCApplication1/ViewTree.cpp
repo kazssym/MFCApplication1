@@ -1,4 +1,6 @@
 
+module MFCApplication1.Control:ViewTree;
+
 #include "pch.h"
 #include "framework.h"
 #include "ViewTree.h"
