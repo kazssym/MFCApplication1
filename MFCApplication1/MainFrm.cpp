@@ -2,6 +2,8 @@
 // MainFrm.cpp : implementation of the CMainFrame class
 //
 
+module MFCApplication1.Frame:Main;
+
 #include "pch.h"
 #include "framework.h"
 //#include "MFCApplication1.h"
