@@ -12,7 +12,7 @@ module MFCApplication1:App;
 #include "MainFrm.h"
 
 #include "ChildFrm.h"
-#include "MFCApplication1Doc.h"
+//#include "MFCApplication1Doc.h"
 #include "MFCApplication1View.h"
 
 #ifdef _DEBUG

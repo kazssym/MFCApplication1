@@ -10,7 +10,7 @@
 //#include "MFCApplication1.h"
 #endif
 
-#include "MFCApplication1Doc.h"
+//#include "MFCApplication1Doc.h"
 #include "MFCApplication1View.h"
 #include <resource.h>
 
