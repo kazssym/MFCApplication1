@@ -95,6 +95,30 @@
     <ClCompile Include="MFCApplication1-App.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MFCApplication1.Control-ViewTree.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1.Control.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1.Document.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1.Frame-Child.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1.Frame-Main.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1.Frame.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1.View.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="MFCApplication1.rc">
